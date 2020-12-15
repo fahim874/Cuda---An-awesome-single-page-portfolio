@@ -22,9 +22,3 @@ $(window).scroll(function(){
     }
   });
 }).trigger('scroll');
-
-
-
-
-
-
