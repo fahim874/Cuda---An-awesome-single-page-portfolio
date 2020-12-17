@@ -78,7 +78,8 @@ h5{
 
 .btn:link,
 .btn:visited,
-.btn{
+.btn,
+.btn-submit{
 	display: inline-block;
 	background: #333;
 	margin-top: 4.5rem;
@@ -394,7 +395,8 @@ svg.ui-ux circle{
 .portfolio-filter button:hover{
 	cursor: pointer;
 	background: #fff;
-	color: #393939
+	color: #393939;
+	box-shadow: inset 0 0.3rem 0.3rem ;
 }
 
 .portfolio-img{
@@ -496,3 +498,91 @@ svg.ui-ux circle{
 /*======= END REVIEW SECTION =========*/
 /*====================================*/
 
+
+
+
+/*====================================*/
+/*======= START CONTACT SECTION =========*/
+/*====================================*/
+
+.contact-section{
+	background: #3c5499;
+}
+
+.contact-section h2::after{
+	background: #273a71
+}
+
+.contact-section .little-description{
+	color: #fff;
+	
+}
+
+.contact-section .row form{
+	margin-top: 5rem;
+	width: 70%;
+	margin-left: 15%;
+	   
+}
+
+.contact-section [type="text"],
+.contact-section [type="email"],
+.contact-section textarea{
+	background: #273a71;
+	border: 0.1rem solid #273a71;
+	border-radius: 0.3rem;
+	width: 100%;
+	padding: 1.5rem;
+	font-size: 1.8rem;
+	color: #fff;
+}
+
+.contact-section form ::placeholder{
+	color: #fff;
+	opacity: 1;
+}
+
+.contact-section [type="submit"]{
+	background: #30bae7;
+	border: none;
+	border-bottom: 0.3rem solid #299ec5;
+	padding: 2.8rem 8.5rem;
+}
+
+
+/*====================================*/
+/*======= END CONTACT SECTION =========*/
+/*====================================*/
+
+
+
+
+/*====================================*/
+/*======= START FOOTER SECTION =========*/
+/*====================================*/
+
+.footer-section{
+	background: #344b8e;
+	padding: 4rem;
+	text-align: center;
+	border-top: 0.1rem solid rgba(255, 255, 255, 0.18)
+}
+
+.footer-section ul li{
+	display: inline-block;
+	margin: 0 2rem;
+}
+
+.footer-section li a{
+	display: block;
+	color: #fff;
+	font-size: 2.4rem;
+	font-weight: 600;
+}
+
+.footer-section li:hover a{
+	color: #30bae7;
+}
+/*====================================*/
+/*======= END FOOTER SECTION =========*/
+/*====================================*/

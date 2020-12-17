@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	$("#member-social-icon").click(function(){
-		
-	})
+	var mixer = mixitup(".n-container");
 })
+	
