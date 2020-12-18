@@ -164,14 +164,9 @@ header{
 	
 }
 
-.sticky{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
 
 .hero-text-box{
+	width: 114rem;
 	position: absolute;
 	top: 50%;
 	left: 50%;
